@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Papiro Books{% endblock %}</title>
+   
+  {% if request.resolver_match.url_name == 'home' %}
+
+      <!-- CSS da Página Home -->
+      <link rel="stylesheet" href="{% static 'home_css/style.css' %}">
+      <link rel="stylesheet" href="{% static 'home_css/styleguide.css' %}">
+      <link rel="stylesheet" href="{% static 'home_css/global.css' %}">
+
+      <!-- CSS da Página Gêneros -->
+      {% elif request.resolver_match.url_name == 'generos' %}
+      <link rel="stylesheet" href="{% static 'generos_css/style_generos.css' %}">
+      <link rel="stylesheet" href="{% static 'generos_css/styleguide_generos.css' %}">
+      <link rel="stylesheet" href="{% static 'generos_css/global_generos.css' %}">
+
+      <!-- CSS da Página LivroHipotese -->
+      {% elif request.resolver_match.url_name == 'info_livro_hipotese' %}
+      <link rel="stylesheet" href="{% static 'info_livro_hipotese_css/style_hipotese.css' %}">
+      <link rel="stylesheet" href="{% static 'info_livro_hipotese_css/styleguide_hipotese.css' %}">
+
+      <!-- CSS da Página LivroAmor -->
+      {% elif request.resolver_match.url_name == 'info_livro_amor' %}
+      <link rel="stylesheet" href="{% static 'info_livro_amor_css/style_amor.css' %}">
+      <link rel="stylesheet" href="{% static 'info_livro_amor_css/global_amor.css' %}">
+
+      <!-- CSS da Página Biblioteca -->
+      {% elif request.resolver_match.url_name == 'biblioteca' %}
+      <link rel="stylesheet" href="{% static 'biblioteca_css/style_biblioteca.css' %}">
+      <link rel="stylesheet" href="{% static 'biblioteca_css/styleguide_biblioteca.css' %}">
+      <link rel="stylesheet" href="{% static 'biblioteca_css/global_biblioteca.css' %}">
+
+      <!-- CSS da Página Amigos -->
+      {% elif request.resolver_match.url_name == 'amigos' %}
+      <link rel="stylesheet" href="{% static 'amigos_css/styles_amigos.css' %}">
+      <link rel="stylesheet" href="{% static 'amigos_css/styleguide_amigos.css' %}">
+      <link rel="stylesheet" href="{% static 'amigos_css/global_amigos.css' %}">
+     
+    {% endif %}
+
+      <!-- CSS da navbar -->
+      
+
+
+  </head>
+  <body>
+    <nav>
+      <div></div>
+  </nav>
+    {% block content %}
+
+    {% endblock %}
+  </body>
+  </html>

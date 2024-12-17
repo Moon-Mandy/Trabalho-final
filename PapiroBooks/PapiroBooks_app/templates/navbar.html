@@ -1,0 +1,29 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'navbar_css/global_navbar.css' %}">
+<link rel="stylesheet" href="{% static 'navbar_css/style_navbar.css' %}">
+<link rel="stylesheet" href="{% static 'navbar_css/styleguide_navbar.css' %}">      
+
+{% block content %}
+            <div class="box">
+                <div class="group">
+                    <footer class="footer">
+                        <div class="navbar-wrapper">
+                            <div class="navbar">
+                                <div class="frame">
+                                    <div class="text-wrapper">PAPIRO BOOKS</div>
+                                    <img class="vector" src="img/vector-5.svg" />
+                                </div>
+                                <div class="div">
+                                    <div class="title">
+                                        <div class="div-wrapper"><div class="text-wrapper-2"><a class="text-wrapper-2" href="{% url 'home' %}">Explorar</a></div></div>
+                                        <div class="text-wrapper-2"><a class="text-wrapper-2"  href="{% url 'biblioteca' %}">Meus livros</a></div>
+                                        <div class="text-wrapper-2"><a class="text-wrapper-2" href="{% url 'amigos' %}">Amigos</a></div>
+                                    </div>
+                                    <button class="button"><div class="text-wrapper-3">Log in</div></button>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+{% endblock %}

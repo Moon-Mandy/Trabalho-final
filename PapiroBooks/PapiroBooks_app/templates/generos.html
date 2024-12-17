@@ -1,0 +1,617 @@
+{% extends "layout.html" %}
+
+{% load static %}
+
+{% block title %}Papiro Books{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+    <div class="desktop">
+    <div class="header-wrapper">
+      <header class="header">
+        <div class="content">
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+              <div class="image-hero">
+                <img class="mask-group" src="https://c.animaapp.com/fZ3ASS0o/img/mask-group.png" />
+              </div>
+              <div class="headline">
+                <div class="search-bar">
+                  <div class="frame">
+                    <img class="search" src="https://c.animaapp.com/fZ3ASS0o/img/search-1.svg" />
+                    <div class="text-wrapper">Search Book</div>
+                  </div>
+                </div>
+                <p class="body-text">Onde Você Compartilha Novas Histórias</p>
+                <div class="div">PAPIRO <br />BOOKS</div>
+              </div>
+              <div class="navbar">
+                <div class="frame-2">
+                  <img class="vector" src="https://c.animaapp.com/fZ3ASS0o/img/vector-5.svg" />
+                </div>
+                <div class="navbar-2">
+                  <div class="title">
+                    <div class="frame-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                class="element-removebg"
+                src="https://c.animaapp.com/fZ3ASS0o/img/3484256-removebg-preview-1.png"
+              />
+            </div>
+          </div>
+          <div class="body">
+            <div class="overlap">
+              <div class="group"><img class="vector-2" src="https://c.animaapp.com/fZ3ASS0o/img/vector-4.svg" /></div>
+              <div class="section-side">
+                <div class="recomendations">
+                  <div class="text-wrapper-5">Recomendações</div>
+                  <div class="text-wrapper-6">Artista do Mês</div>
+                  <div class="text-wrapper-6">Livro do Ano</div>
+                  <div class="text-wrapper-6">Melhores gêneros</div>
+                </div>
+                <div class="book-by-genre">
+                  <div class="text-wrapper-7">Negócios</div>
+                  <div class="text-wrapper-6">Ciência</div>
+                  <div class="text-wrapper-6">Ficção</div>
+                  <div class="text-wrapper-8">Romance</div>
+                  <div class="text-wrapper-6">Biografia</div>
+                </div>
+                <div class="all-genre"><div class="text-wrapper-9">Todos os gêneros</div></div>
+                <div class="text-wrapper-10">Livors por Gênero</div>
+                <img class="line" src="https://c.animaapp.com/fZ3ASS0o/img/line.svg" />
+              </div>
+            </div>
+            <div class="card-book">
+              <div class="element">
+                <div class="recommended-wrapper">
+                  <div class="recommended">
+                    <div class="text-wrapper-11">Romance</div>
+                    <div class="card-list">
+                      <div class="element-2">
+                        <div class="card">
+                          <div class="frame-4">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="amor-e-gelato">Amor E Gelato</div>
+                                <div class="jenna-evans-welch">Jenna Evans Welch</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8336.svg" />
+                                  <div class="text-wrapper-12">2,865,134 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="frame-wrapper">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-1@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Amor E Sorte</div>
+                                <div class="text-wrapper-14">Jenna Evans Welch</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8341.svg" />
+                                  <div class="text-wrapper-15">2,451,275 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="frame-wrapper">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-2@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13"> <a  class="text-wrapper-13" href="{% url 'info_livro_amor' %}">Amor e Azeitonas</a></div>
+                                <div class="jos-mauro-de">Jenna Evans Welch</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8341-1.svg" />
+                                  <div class="text-wrapper-15">1,763,186 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="div-wrapper">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-3@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-17">Melhor Do Que Nos Filmes</p>
+                                <div class="text-wrapper-18">Lynn Painter</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326.svg" />
+                                  <div class="text-wrapper-12">975,765 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-4@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Leitura De Verão</div>
+                                <div class="text-wrapper-19">Emily Henry</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331.svg" />
+                                  <div class="text-wrapper-15">1,423,754 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-5@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-13">Não É Como Nos Filmes</p>
+                                <div class="text-wrapper-19">Lynn Painter</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-1.svg" />
+                                  <div class="text-wrapper-15">867,824 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="div-wrapper">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-6@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-17">O Verão Que Mudou Minha Vida</p>
+                                <div class="text-wrapper-18">Jenny Han</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-1.svg" />
+                                  <div class="text-wrapper-12">1,562,187 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-7@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-13">Sem Você Não É Verão</p>
+                                <div class="text-wrapper-19">Jenny Han</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-2.svg" />
+                                  <div class="text-wrapper-15">1,345,128 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-8@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="sempre-teremos-o-ver">Sempre Teremos O Verão</div>
+                                <div class="text-wrapper-19">Jenny Han</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-3.svg" />
+                                  <div class="text-wrapper-15">1,467,189 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="div-wrapper">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-9@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-17">Um Experimento De Amor Em Nova York</p>
+                                <div class="text-wrapper-18">Elena Armas</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-2.svg" />
+                                  <div class="text-wrapper-12">567,912 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-10@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="uma-farsa-de-amor-na">Uma Farsa De Amor Na Espanha</p>
+                                <div class="text-wrapper-19">Elena Armas</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-4.svg" />
+                                  <div class="text-wrapper-20">1,451,211 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-11@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Conectadas</div>
+                                <div class="text-wrapper-19">Clara Alves</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-5.svg" />
+                                  <div class="text-wrapper-15">873,269 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="card-3">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-12@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="se-ela-fosse-minha">Se Ela Fosse Minha</div>
+                                <div class="text-wrapper-18">Alison Cochrun</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-3.svg" />
+                                  <div class="text-wrapper-12">675,288 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-13@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Amor Em Manhattan</div>
+                                <div class="text-wrapper-19">Sarah Morgan</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-6.svg" />
+                                  <div class="text-wrapper-15">1,638,183 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-14@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-13">Pôr Do Sol No Central Park</p>
+                                <div class="text-wrapper-19">Sarah Morgan</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-7.svg" />
+                                  <div class="text-wrapper-15">1,748,108 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="div-wrapper">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-15@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-17">Simplesmente Nova York</div>
+                                <div class="text-wrapper-18">Sarah Morgan</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-4.svg" />
+                                  <div class="text-wrapper-12">1,518,476 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-16@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Manhattan Sob O Luar</div>
+                                <div class="text-wrapper-19">Sarah Morgan</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-8.svg" />
+                                  <div class="text-wrapper-15">1,178,298 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-17@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Milagre Na 5ª Avenidade</div>
+                                <div class="text-wrapper-19">Collen Hoover</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-9.svg" />
+                                  <div class="text-wrapper-15">1,531,765 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="card-3">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-18@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="loucos-por-livros">Loucos Por Livros</div>
+                                <div class="text-wrapper-18">Emily Henry</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-5.svg" />
+                                  <div class="text-wrapper-12">1,453,761 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-19@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Pessoas Normais</div>
+                                <div class="text-wrapper-19">Sally Rooney</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-10.svg" />
+                                  <div class="text-wrapper-15">1,452,872 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-20@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <p class="text-wrapper-13">Eu E Esse Meu Coração</p>
+                                <div class="text-wrapper-19">C. C. Hunter</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-11.svg" />
+                                  <div class="text-wrapper-15">1,543,128 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="card-3">
+                          <div class="frame-9">
+                            <img class="img-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-21@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="quebrando-o-gelo">Quebrando O Gelo</div>
+                                <div class="text-wrapper-18">Hannah Grace</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-6.svg" />
+                                  <div class="text-wrapper-12">1,657,129 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-22@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Apostando No Amor</div>
+                                <div class="text-wrapper-19">Lynn Painter</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-12.svg" />
+                                  <div class="text-wrapper-15">1,467,189 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image" src="https://c.animaapp.com/fZ3ASS0o/img/image-23@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Todas As Suas Imperfeições</div>
+                                <div class="text-wrapper-19">Collen Hoover</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-13.svg" />
+                                  <div class="text-wrapper-15">1,789,269 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="element-3">
+                        <div class="div-wrapper">
+                          <div class="frame-9">
+                            <img
+                              class="img-2"
+                              src="https://c.animaapp.com/fZ3ASS0o/img/f11c0f2505267eefbd435c256f37bdf4-1@2x.png"
+                            />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-17"> <a  class="text-wrapper-17" href="{% url 'info_livro_hipotese' %}">A Hipótese Do Amor</a></div>
+                                <div class="text-wrapper-18">Ali Hazelwood</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8326-7.svg" />
+                                  <div class="text-wrapper-12">3,876,216 votos</div>
+                                </div>
+                              </div>
+                              <p class="p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-24@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">A Razão Do Amor</div>
+                                <div class="text-wrapper-19">Ali Hazelwood</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-14.svg" />
+                                  <div class="text-wrapper-20">768,389 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-2">
+                          <div class="frame-10">
+                            <img class="image-2" src="https://c.animaapp.com/fZ3ASS0o/img/image-25@2x.png" />
+                            <div class="frame-5">
+                              <div class="frame-6">
+                                <div class="text-wrapper-13">Amor Teoricamente</div>
+                                <div class="text-wrapper-19">Ali Hazelwood</div>
+                                <div class="frame-7">
+                                  <img class="frame-8" src="https://c.animaapp.com/fZ3ASS0o/img/frame-8331-15.svg" />
+                                  <div class="text-wrapper-20">678,987 votos</div>
+                                </div>
+                              </div>
+                              <p class="text-wrapper-16">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus morbi eleifend enim,
+                                tristique
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </div>
+{% endblock %}
